@@ -1,0 +1,42 @@
+{
+    "keyboard_name": "Cloverpad MX",
+    "manufacturer": "Cloverpad",
+    "maintainer": "Ace4896",
+    "url": "https://github.com/Cloverpad",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "usb": {
+        "pid": "0x1404",
+        "vid": "0x1404",
+        "device_version": "1.0.0",
+        "polling_interval": 1
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "debounce": 1,
+    "build": {
+        "debounce_type": "sym_eager_pk",
+        "lto": true
+    },
+    "matrix_pins": {
+        "direct": [["GP25", "GP24", "GP23"]]
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "Z", "x": 0, "y": 0, "matrix": [0, 0] },
+                { "label": "X", "x": 1, "y": 0, "matrix": [0, 1] },
+                { "label": "C", "x": 2, "y": 0, "matrix": [0, 2] }
+            ]
+        }
+    }
+}
