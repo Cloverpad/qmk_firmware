@@ -19,7 +19,7 @@
         "mousekey": true,
         "nkro": false
     },
-    "debounce": 3,
+    "debounce": 5,
     "build": {
         "debounce_type": "sym_eager_pk",
         "lto": true
